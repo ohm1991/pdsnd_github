@@ -12,5 +12,8 @@ App was created as part of the Udacity Programming for Data Science Nanodegree
 ### Files used
 Files used are a python file (bikeshare_2), and a .csv files for the each city (not uploaded to github)
 
+### Future Plans
+Future plans included adding the following cities to the app: Los Angeles, Las Vegas, Miami, Seattle, and Boston
+
 ### Credits
 Special thanks to Udacity and the Udacity Team for providing both the training and data to complete this project.
