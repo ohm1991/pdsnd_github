@@ -186,7 +186,7 @@ def display_data(df, index):
     if response_next5rows == 'no':
         return
     else:
-        print("\nI'm sorry, I'm not sure if you wanted to see more data or not. Let's try again.")
+        print("\n Please input either yes or no.")
         return display_data(df, current_line)
 
 def main():
