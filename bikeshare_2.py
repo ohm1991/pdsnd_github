@@ -178,15 +178,15 @@ def user_stats(df):
 
 def display_data(df, index):
     prompt = '\nDisplay next 5 rows of raw data (yes/no)? \n'
-    res = input(prompt).lower()
-    if res == 'yes':
+    response_next5rows = input(prompt).lower()
+    if response_next5rows == 'yes':
         print(df.iloc[index:index+5])
         index += 5
         return display_data(df, index)
-    if res == 'no':
+    if response_next5rows == 'no':
         return
     else:
-        print("\nI'm sorry, I'm not sure if you wanted to see more data or not. Let's try again.")
+        print("\n Please input either yes or no.")
         return display_data(df, current_line)
 
 def main():
